@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- Borrelli}}
+\chead{\scriptsize \textit{References -- \acl{ej} tools}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,51 +332,54 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{borrelli.bib}
-    @article{
-        bor23a,
-        author = {Root, Sam J. and Throckmorton, Porter and Tacke, Jonathan and Benjamin, Jacob and Haney, Michael and Borrelli,R. A.},
-        title = {{Cyber Hardening of Nuclear Power Plants}},
-        journal = {Progress in Nuclear Energy},
-        volume = {162},
-        pages = {104742},
-        year = {2023}
-    }
-    @article{
-        bor22a,
-        author = {Redfoot, Emma K. and Verner, Kelley M. and Borrelli, R. A.},
-        journal = {Progress in Nuclear Energy},
-        pages = {104083},
-        title = {Applying analytic hierarchy process to industrial process design in a nuclear renewable hybrid energy system},
-        volume = {145},
+\begin{filecontents}{environmental-justice-tools.bib}
+    @misc{
+        fpz23b,
+        author = {{Fastest Path to Zero}},
+        title = {{\acs{sta} -- Quickstart guide}},
         year = {2022}
     }
-    @article{
-        lee19a,
-        author = {Lee, Jieun and Borrelli, R. A.},
-        title = {{Use of discrete event simulation for material throughput}},
-        journal = {Nuclear Engineering and Design},
-        volume = {345},
-        pages = {183},
-        year = {2019}
+    @misc{
+        buc21a,
+        author = {Bucknor, Matthew and Ford, Michael and Hummel, John and Samsa, Michael and Belles, Randy and Omitaomu, Olufemi and Baker, Suzanna and Hoelzle, Gabrielle},
+        title = {{National Demonstration Reactor Siting Study -- Phase I}},
+        note = {{ANL/NRIC-20/1 Rev. 1}},
+        year = {2021}
     }
-    @article{
-        bor19a,
-        author = {Lee, Jieun and Shigrekar, Amey and Borrelli, R. A.},
-        journal = {Nuclear Engineering and Design},
-        pages = {131},
-        title = {Hazard and operability analysis of a pyroprocessing facility},
-        volume = {348},
-        year = {2019}
+    @misc{
+        ceq23a,
+        author = {{Council on Environmental Quality}},
+        title = {{\acl{cej}}},
+        note = {{Methodology}},
+        year = {2023}
     }
-    @article{
-        pet19a,
-        author = {{Peterson, John and Haney, Michael and Borrelli, R. A.}},
-        title = {An overview of methodologies for cybersecurity vulnerability assessment conducted in nuclear power plants},
-        journal = {Nuclear Engineering and Design},
-        volume = {346},
-        pages = {75},
-        year = {2019}
+    @misc{
+        epa23b,
+        author = {{Environmental Protection Agency}},
+        title = {{What is \acs{ejs}?}},
+        year = {2023}
+    }
+    @misc{
+        pet18b,
+        author = {Peterson, Steven},
+        title = {{\acs{tra}: Transportation Routing Analysis Geographic System User's Manual}},
+        note = {{ORNL/TM-2018/856}},
+        year = {2018}
+    }
+    @conference{
+        abk16a,
+        author = {Abkowitz, Mark and Bickford, Erica},
+        title = {{Application of a Decision-Support Tool for Evaluating Radioactive Material Transportation Routing Options and Emergency Preparedness}},
+        year = { 2016},
+        organization = {Proc., 18th International Symposium on the Packaging and Transportation of Radioactive Materials },
+        address = {Kobe}
+    }
+    @misc{
+        con23a,
+        author = {Condon, Caitlin and McGee, Kacey and Gadey, Harish and Royer, Patrick},
+        title = {{Stakeholder Tool for Assessing Radioactive Transportation (Start) Verification and Validation Efforts}},
+        note = {{PNNL-SA-184470}},
+        year = {2023}
     }
 \end{filecontents}
 %%%%%
@@ -529,7 +532,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{borrelli}
+\bibliography{environmental-justice-tools}
 
 
 \end{document}
