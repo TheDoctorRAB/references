@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- Consent: Utah}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,75 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
-    @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
-        year = {2023}
+\begin{filecontents}{consent-utah.bib}
+    @article{
+        nox86a,
+        author = {Noxon, John and Marcus, Deborah},
+        title = {{Waste to Create Waste? Potential Impact of High-Level Nuclear Waste on Rock Art in Canyonlands National Park, Southeastern Utah}},
+        journal = {American Indian Rock Art},
+        volume = {11},
+        pages = {19},
+        year = {1986}
     }
     @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
+        ben09a,
+        author = {Bentley, R. Blair},
+        title = {{A Study of Residual Cesium 137 Contamination in Southwestern Utah Soil Following the Nuclear Weapons Tests at the Nevada Test Site in the 1950’s and 1960’s}},
+        note = {{Oregon State University Thesis}},
+        year = {2009}
+    }
+    @article{
+        ker93a,
+        author = {Kerber, Richard A. and Till, John E. and Simon, Steven L. and Lyon, Joseph L. and Thomas, Duncan C. and Preston-Martin, Susan and Rallison, Marvin L. and Lloyd, Ray D. and Stevens, Walter},
+        title = {{A Cohort Study of Thyroid Disease in Relation to Fallout From Nuclear Weapons Testing}},
+        journal = {JAMA},
+        volume = {270},
+        pages = {2076},
+        year = {1993}
+    }
+    @article{
+        ste90a,
+        author = {Stevens, Walter and Thomas, Ducan C. and Lyon, Joseph L. and Till, John E. and Kerber, Richard A. and Simon, Steven L. and Lloyd, Ray D. and Elghany, Naima Abd and Preston-Martin, Susan},
+        title = {{Leukemia in Utah and Radioactive Fallout From the Nevada Test Site: A Case-Control Study}},
+        journal = {JAMA},
+        volume = {264},
+        pages = {585},
+        year = {1990}
+    }
+    @article{
+        bec83a,
+        author = {Beck, Harold L. and Krey, Philip W.},
+        title = {{Radiation exposures in Utah from Nevada Nuclear Tests}},
+        journal = {Science},
+        volume = {220},
+        pages = {18},
+        year = {1983}
+    }
+    @article{
+        usa59a,
+        journal = {The Science News-Letter},
+        pages = {429},
+        author = {{Society for Science \& the Public}},
+        title = {{U. S. Suffers Radiophobia}},
+        urldate = {2023-12-18},
+        volume = {76},
+        year = {1959}
     }
     @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
-        year = {2014}
+        bec80a,
+        author = {Beck, Harold L. and Krey, Philip W.},
+        title = {{Cesium-137 inventories in undisturbed Utah soils: interim report on radionuclides in soils of populated areas}},
+        note = {{EML-375}},
+        year = {1980}
     }
-    @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
-    }
-    @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
-    }
-    @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+    @book{
+        ful85a,
+        author = {Fuller, John G.},
+        title = {{The day we bombed Utah}},
+        publisher = {{Signet}},
+        year = {1985},
+        address = {New York},
+        isbn = {978-0451134820}
     }
 \end{filecontents}
 %%%%%
@@ -524,7 +553,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{nrc}
+\bibliography{consent-utah}
 
 
 \end{document}

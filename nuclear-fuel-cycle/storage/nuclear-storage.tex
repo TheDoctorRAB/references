@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- Nuclear storage}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,52 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
+\begin{filecontents}{nuclear-storage.bib}
     @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
+        pro23a,
+        author = {Prokop, Danielle},
+        title = {{Law to ban high-level nuclear waste storage facility effective June}},
+        year = {2023},
+        note = {{Source New Mexico}}
+    }
+    @misc{
+        new23a,
+        author = {{NewsWest9}},
+        title = {{State of Texas wins ongoing battle with the \acs{nrc} over approval of high-level nuclear storage in Andrews}},
         year = {2023}
     }
     @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
+        dou21a,
+        author = {Douglas, Erin},
+        title = {{Texas bans storage of highly radioactive waste, but a West Texas facility may get a license from the feds anyway}},
+        note = {{The Texas Tribune}},
+        year = {2021}
     }
     @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
-        year = {2014}
+        mac21a,
+        author = {MacMillan, Douglas and Gregg, Aaron},
+        title = {{A private company got federal approval to store nuclear waste in Texas. The state is fighting back}},
+        note = {{The Washington Post}},
+        year = {2021}
     }
     @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
+        nei22a,
+        author = {{Nuclear Energy Institute}},
+        title = {{Spent fuel storage by state}},
+        year = {2022}
     }
     @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
+        crs20a,
+        author = {{Congressional Research Service}},
+        title = {{Nuclear waste storage sites in the United States}},
+        year = {2020}
     }
     @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+        con20a,
+        author = {Conca, James},
+        title = {{Nuclear Regulatory Commission Shows Dry Cask Storage Is Safe –– Yet Again}},
+        note = {{Forbes}},
+        year = {2020}
     }
 \end{filecontents}
 %%%%%
@@ -524,7 +530,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{nrc}
+\bibliography{nuclear-storage}
 
 
 \end{document}

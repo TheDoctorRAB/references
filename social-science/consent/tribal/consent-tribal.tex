@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- Consent: Tribal}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,93 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
-    @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
-        year = {2023}
+\begin{filecontents}{consent-tribal.bib}
+    @article{
+        sac96a,
+        author = {Sachs, Noah},
+        title = {{The Mescalero Apache Indians and Monitored Retrievable Storage of Spent Nuclear Fuel: A Study in Environmental Ethics}},
+        journal = { Natural Resources Journal},
+        volume = {36},
+        pages = {881},
+        year = {1996}
+    }
+    @article{
+        maz18a,
+        author = {Mazzocchi, Fulvio},
+        title = {{Why ``Integrating" Western Science and Indigenous Knowledge Is Not an Easy Task: What Lessons Could Be Learned for the Future of Knowledge?}},
+        journal = {Journal of Futures Studies},
+        volume = {22},
+        pages = {19},
+        year = {2018}
+    }
+    @article{
+        tra08a,
+        author = {Trafzer, Clifford E. and Gilbert, Willard Sakiestewa and Madrigal, Anthony},
+        title ={{Integrating Native Science Into a Tribal Environmental Protection Agency (EPA)}},
+        journal = {American Behavioral Scientist},
+        volume = {51},
+        pages = {1844},
+        year = {2008}
+    }
+    @book{
+        sto01a,
+        editor = {Stoffle, Richard W. and Zede{\~n}o, M. Nieves and Halmo, David B.},
+        title = {{American Indians and the Nevada Test Site: A Model of Research and Consultation}},
+        publisher = {{U.S. Government Printing Office}},
+        year = {2001},
+        address = {Washington, D.C.}
+    }
+    @article{
+        cla02a,
+        author = {Clarke, Tracylee},
+        title = {{An Ideographic Analysis of Native American Sovereignty in the State of Utah: Enabling Denotative Dissonance and Constructing Irreconcilable Conflict}},
+        journal = {Wicazo Sa Review},
+        volume = {17},
+        pages = {43},
+        year = {2002}
     }
     @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
+        moo21a,
+        author = {Moore, Tansey},
+        title = {{Consent-Based Siting of Nuclear Waste: A Tribal Perspective}},
+        note = {{National Conference of State Legislatures}},
+        year = {2021}
     }
-    @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
-        year = {2014}
+    @article{
+        ski01a,
+        author = {Skibine, Alex Tallchief},
+        title = {{High Level Nuclear Waste on Indian Reservations: Pushing the Tribal Sovereignty Envelope to the Edge}},
+        journal = {Journal of Land, Resources, \& Environmental Law},
+        volume = {21},
+        pages = {287},
+        year = {2001}
     }
-    @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
+    @article{
+        ish03a,
+        author = {Ishiyama, Noriko},
+        title = {{Environmental Justice and American Indian Tribal Sovereignty: Case Study of a Land–Use Conflict in Skull Valley, Utah}},
+        journal = {Antipode},
+        volume = {35},
+        pages = {119},
+        year = {2003}
     }
-    @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
+    @article{
+        cla10a,
+        author = {Clarke, Tracylee},
+        title = {{Goshute Native American Tribe and Nuclear Waste: Complexities and Contradictions of a Bounded-Constitutive Relationship}},
+        journal = {Environmental Communication},
+        volume = {4},
+        pages = {387},
+        year = {2010},
     }
-    @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+    @article{
+        sto88a,
+        author = {Stoffle, Richard W. and Evans, Michael J.},
+        title = {{American Indians and nuclear waste storage: The debate at Yucca Mountain, Nevada}},
+        journal = {Policy Studies Journal},
+        volume = {16},
+        pages = {751},
+        year = {1988}
     }
 \end{filecontents}
 %%%%%
@@ -524,7 +571,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{nrc}
+\bibliography{consent-tribal}
 
 
 \end{document}

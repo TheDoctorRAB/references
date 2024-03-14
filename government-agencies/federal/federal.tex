@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- Federal government}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,12 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
+\begin{filecontents}{federal.bib}
     @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
-        year = {2023}
-    }
-    @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
-    }
-    @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
-        year = {2014}
-    }
-    @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
-    }
-    @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
-    }
-    @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+        caa21a,
+        author = {{United States Federal Government}},
+        title = {{Consolidated Appropriations Act of 2021}},
+        year = {2021}
     }
 \end{filecontents}
 %%%%%
@@ -524,7 +490,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{nrc}
+\bibliography{federal}
 
 
 \end{document}

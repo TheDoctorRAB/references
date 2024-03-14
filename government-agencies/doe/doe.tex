@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- \acs{doe}}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,53 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
+\begin{filecontents}{doe.bib}
     @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
+        doe16a,
+        author = {{Department of Energy}},
+        title = {{An integrated waste-management system and consent-based approach to siting}},
+        year = {2023},
+        note = {{Consent-Based Siting Initiative Kick-Off Meeting. Full Transcript}}
+    }
+    @misc{
+        doe22a,
+        author = {{Department of Energy}},
+        title = {{Responses to RFI on Using a Consent-Based Siting Process To Identify Federal Interim Storage Facilities}},
+        year = {2022},
+        note = {{Comment Summary and Analysis Report}}
+    }
+    @misc{
+        doe17a,
+        author = {{Department of Energy}},
+        title = {{Draft consent-based siting process for consolidated storage and disposal facilities for spent nuclear fuel and high-level radioactive waste}},
+        year = {2017}
+    }
+    @misc{
+        doe23a,
+        author = {{Office of Nuclear Energy}},
+        title = {{INFOGRAPHIC: Consent-Based Siting Roadmap}},
+        year = {2023},
+        note = {{\acl{doe}}}
+    }
+    @misc{
+        doe23b,
+        author = {{Office of Nuclear Energy}},
+        title = {{Consent-based siting process for federal consolidated interim storage of spent nuclear fuel}},
+        year = {2023},
+        note = {{\acl{doe}}}
+    }
+    @misc{
+        doe23c,
+        author = {{Department of Energy}},
+        title = {{\acs{doe} awards \$26 million to support consent-based siting for spent nuclear fuel}},
         year = {2023}
     }
     @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
-    }
-    @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
-        year = {2014}
-    }
-    @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
-    }
-    @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
-    }
-    @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+        oem21a,
+        author = {{Office of Environmental Management}},
+        title = {{Explaining Idaho's Unique Settlement Agreement}},
+        year = {2021},
+        note = {{\acl{doe}}}
     }
 \end{filecontents}
 %%%%%

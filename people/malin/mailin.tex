@@ -324,7 +324,7 @@
 %\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
 %\lhead{\scriptsize Agency
 \lhead{\scriptsize Prof. R. A. Borrelli}
-\chead{\scriptsize \textit{References -- \acs{nrc}}}
+\chead{\scriptsize \textit{References -- Malin}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -332,46 +332,51 @@
 
 %%%%% citations
 % do not use \acf in author field; screws up alphabetical on standard.bst
-\begin{filecontents}{nrc.bib}
-    @misc{
-        nrc23a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{\acs{nrc} Maps of Independent Spent Fuel Storage Installations}},
-        year = {2023}
-    }
-    @misc{
-        nrc23b,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{U.S. Independent Spent Fuel Storage Installations}},
-        year = {2023}
-    }
-    @misc{
-        nrc14a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Spent fuel transportation risk assessment}},
-        note = {{NUREG-2125}},
+\begin{filecontents}{malin.bib}
+    @article{
+        mal14a,
+        author = {Malin, Stephanie},
+        title = {{When Is `Yes to the Mill' Environmental Justice? Interrogating Sites of Acceptance in Response to Energy Development}},
+        journal = {Analyse \& Kritik},
+        volume = {36},
+        pages = {263},
         year = {2014}
     }
-    @misc{
-        nrc13a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Physical Protection of Shipments of Irradiated Reactor Fuel}},
-        note = {{NUREG-0561, Rev. 2}},
-        year = {2013}
+    @book{
+        mal15a,
+        author = {Malin, Stephanie A.},
+        title = {{The price of nuclear power: Uranium communities and environmental justice}},
+        publisher = {Rutgers University Press},
+        address = {New Brunswick},
+        year = {2015}
     }
-    @misc{
-        nrc87a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Standard review plan for the review of safety analysis reports for nuclear power plants: LWR edition}},
-        note = {{NUREG-0800}},
-        year = {1987}
+    @article{
+        mal10a,
+        author = {Malin, Stephanie A. and Petrzelka, Peggy},
+        title = {{Left in the Dust: Uranium's Legacy and Victims of Mill Tailings Exposure in Monticello, Utah}},
+        journal = {Society \& Natural Resources},
+        volume = {23},
+        pages = {1187},
+        year = {2010}
     }
-    @misc{
-        nrc75a,
-        author = {{Nuclear Regulatory Commission}},
-        title = {{Reactor Safety Study: An Assessment of Accident Risks in U. S. Commercial Nuclear Power Plants}},
-        year = {1975},
-        notes = {{NUREG-75/014 (WASH-1400)}}
+    @article{
+        mal23a,
+        author = {Malin, Stephanie A. and Ciplet, David and Harrison, Jill Lindsey},
+        title = {{Sites of Resistance, Acceptance, and Quiescence Amid Environmental Injustice: An Introduction to the Special Issue on Sustainability Under Neoliberalism}},
+        journal = {Environmental Justice},
+        volume = {16},
+        pages = {1},
+        year = {2023}
+    }
+    @incollection{
+        ale21a,
+        author = {Alexis-Martin, Becky and Turnbull, Jonathon and Bennett, Luke and Bolton, Matthew and Davis, Thom and Dunlop, Gair and Hawkins, Dimity and Hogue, Rebecca H. and Holloway, Philippa and Malin, Stephanie A. and Mangioni, Talei Luscia and Mayoux, Chloe and McClelland, Gywn and Meyer, Teva and slavick, elin o'Hara and Ross, Linda},
+        title = {{Nuclear geographies and nuclear issues}},
+        booktitle = {The International Encyclopedia of Geography},
+        publisher = {John Wiley \& Sons, Ltd.},
+        year = {2021},
+        editor = {Richardson, Douglas and Castree, Noel and Goodchild, Michael F. and Kobayashi, Audrey and Liu, Weidong and Marston, Richard A.},
+        pages = {10.1002/9781118786352.wbieg2109}
     }
 \end{filecontents}
 %%%%%
@@ -524,7 +529,7 @@
 \part*{References}
 \bibliographystyle{standard}
 \setlength{\bibhang}{0pt}
-\bibliography{nrc}
+\bibliography{malin}
 
 
 \end{document}
