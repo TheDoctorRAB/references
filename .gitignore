@@ -43,17 +43,9 @@
 *.pbs
 *.o*
 
-<<<<<<< HEAD
 # LateX
 *.aux
 *.dvi
 *.log
-*.bib
 *.blg
 *.tex~
-=======
-# LaTeX
-*.aux
-*.dvi
-*.log
->>>>>>> upstream/proposals
