@@ -72,6 +72,8 @@ Do not use @techreport because it add 'Tech Rep' and it looks ridiculous. Use @m
     note = {{INL/EXT-21-65347}}  
 }
 
+For an agency as an author - author = {{Department of Energy}}
+
 Input the FULL AUTHOR LIST. Even if there's 27 of them. No exceptions. The journals will use their own bst file to truncate.   
 
 To find if the bib code is duplicated, execute grep -Rnw -e 'bibcode' on the command line.   
