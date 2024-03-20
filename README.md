@@ -15,71 +15,64 @@ export BIBINPUTS="$BIBREF/cybersecurity/cyberattacks:$BIBREF/cybersecurity/nonpr
 
 BIBINPUTS is the path to each .bib file in the repository. Add to BIBINPUTS as new directories are created. 
 
-<<<<<<< HEAD
 
 ## Formatting   
 The 'bib code' is the first author three letters of the surname + publication year + a,b,c. The letters are for when the XXXNN are the same for multiple resources. 
 
 
-@article{
-    red22a,
-    author = {Redfoot, Emma K. and Verner, Kelley M. and Borrelli, R. A.},
-    journal = {Progress in Nuclear Energy},
-    pages = {104083},
-    title = {Applying analytic hierarchy process to industrial process design in a nuclear renewable hybrid energy system},
-    volume = {145},
-    year = {2022}
-}
-@article{
-    lee19a,
-    author = {Lee, Jieun and Borrelli, R. A.},
-    title = {{Use of discrete event simulation for material throughput}},
-    journal = {Nuclear Engineering and Design},
-    volume = {345},
-    pages = {183},
-    year = {2019}
-}
-@article{
-    lee19b,
-    author = {Lee, Jieun and Shigrekar, Amey and Borrelli, R. A.},
-    journal = {Nuclear Engineering and Design},
-    pages = {131},
-    title = {Hazard and operability analysis of a pyroprocessing facility},
-    volume = {348},
-    year = {2019}
-}
+@article{  
+    red22a,  
+    author = {Redfoot, Emma K. and Verner, Kelley M. and Borrelli, R. A.},  
+    journal = {Progress in Nuclear Energy},  
+    pages = {104083},  
+    title = {Applying analytic hierarchy process to industrial process design in a nuclear renewable hybrid energy system},  
+    volume = {145},  
+    year = {2022}  
+}  
+@article{  
+    lee19a,  
+    author = {Lee, Jieun and Borrelli, R. A.},  
+    title = {{Use of discrete event simulation for material throughput}},  
+    journal = {Nuclear Engineering and Design},  
+    volume = {345},  
+    pages = {183},   
+    year = {2019}  
+}  
+@article{  
+    lee19b,  
+    author = {Lee, Jieun and Shigrekar, Amey and Borrelli, R. A.},  
+    journal = {Nuclear Engineering and Design},  
+    pages = {131},  
+    title = {Hazard and operability analysis of a pyroprocessing facility},  
+    volume = {348},  
+    year = {2019}   
+}  
 
 
 Don't use weird @fields; see the bib files and stick to the usual ones. When in doubt use @misc. Do not add URLs or 'date accessed' for web pages. Use @misc with the regular fields and use the date of the web page. Do not use number = {N} for journal articles. See the above examples. Do not use a page range; just put the page number where the resource starts. For no page numbers and just a DOI, only put in the numerical code of the DOI. No 'http://doi.org/10.XXXXXX'. 
 
-@article{
-    ram18a,
-    author = {Ramana, M. V.},
-    title = {Technical and social problems of nuclear waste},
-    journal = {WIREs Energy and Environment},
-    volume = {7},
-    pages = {10.1002/wene.289},
-    year = {2018}
+@article{  
+    ram18a,  
+    author = {Ramana, M. V.},  
+    title = {Technical and social problems of nuclear waste},  
+    journal = {WIREs Energy and Environment},  
+    volume = {7},  
+    pages = {10.1002/wene.289},  
+    year = {2018}  
 }
 
 Do not use @techreport because it add 'Tech Rep' and it looks ridiculous. Use @misc and put the report number in the note = {{}}.
 
 
-@misc{
-    aum21a,
-    author = {Aumeier, Steven E. and Shropshire, David E. and Allen, Todd and Ara{\'u}jo, Kathleen and Bell, Christi and Craig, Michael and Parsons, John and Righetti, Tara},
-    title = {{Emerging Energy Market Analysis Initiative, Methodological Framework}},
-    year = {2021},
-    note = {{INL/EXT-21-65347}}
+@misc{  
+    aum21a,  
+    author = {Aumeier, Steven E. and Shropshire, David E. and Allen, Todd and Ara{\'u}jo, Kathleen and Bell, Christi and Craig, Michael and Parsons, John and Righetti, Tara},  
+    title = {{Emerging Energy Market Analysis Initiative, Methodological Framework}},  
+    year = {2021},  
+    note = {{INL/EXT-21-65347}}  
 }
 
-Input the FULL AUTHOR LIST. Even if there's 27 of them. No exceptions. The journals will use their own bst file to truncate. 
+Input the FULL AUTHOR LIST. Even if there's 27 of them. No exceptions. The journals will use their own bst file to truncate.   
 
-To find if the bib code is duplicated, execute grep -Rnw -e 'bibcode' on the command line. 
-=======
-Use - 
+To find if the bib code is duplicated, execute grep -Rnw -e 'bibcode' on the command line.   
 
-export TEXIMG="$HOME/github/literature/img"
-
-To set top level img directory in each brannch. Then, in the tex file set \graphicspath{{$TEXIMG/}} for the path to the img/ directory
->>>>>>> d822f685f851f620045fed62f564ed704d278732
